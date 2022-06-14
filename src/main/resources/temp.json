@@ -1,0 +1,808 @@
+{
+  "success": true,
+  "messages": [],
+  "body": {
+    "productId": "30061244",
+    "name": "Ноутбук ASUS R522MA-BQ862W",
+    "nameTranslit": "noutbuk-asus-r522ma-bq862w",
+    "brandName": "ASUS",
+    "materialSource": "ERP",
+    "productType": "DIG",
+    "images": [
+      "Pdb/30061244.jpg",
+      "Pdb/30061244b.jpg",
+      "Pdb/30061244b1.jpg",
+      "Pdb/30061244b2.jpg",
+      "Pdb/30061244b20.jpg",
+      "Pdb/30061244b21.jpg",
+      "Pdb/30061244b22.jpg",
+      "Pdb/30061244b23.jpg",
+      "Pdb/30061244b24.jpg",
+      "Pdb/30061244b3.jpg",
+      "Pdb/30061244s.jpg"
+    ],
+    "vendorCatalog": null,
+    "partnerType": null,
+    "category": {
+      "id": "987",
+      "name": "Ноутбуки"
+    },
+    "materialCisNumber": "30061244",
+    "description": "Ноутбук Asus R522MA-BQ862W готов справиться с повседневными задачами, включая общение с коллегами и работу с самыми популярными программами. Девайс оборудован 15,6-дюймовым экраном с TN-матрицей, разрешением Full HD и частотой обновления 60 Гц.\n\nВЫСОКАЯ СТАБИЛЬНОСТЬ\nНоутбук использует двухъядерный процессор Intel Celeron N4020 и встроенную видеокарту Intel UHD Graphics 600, подходящую для обработки графики. Также Asus R522MA-BQ862W располагает 4 Гб оперативной памяти и позволяет сходу опробовать комплектующие благодаря предустановленной ОС Windows 11.\n\nДОПОЛНИТЕЛЬНЫЕ ВОЗМОЖНОСТИ\nAsus R522MA-BQ862W оснащён звуковой системой SonicMaster с двумя динамиками, позволяющей обойтись без внешних колонок. На сделанном из пластика корпусе расположились разъёмы USB Type-C, USB 3.2, USB 2.0, HDMI, 3,5 мм для подключения других устройств.",
+    "modelName": "R522MA-BQ862W",
+    "properties": {
+      "key": [
+        {
+          "name": "Экран",
+          "priority": 1,
+          "properties": [
+            {
+              "id": 621,
+              "name": "Диагональ/разрешение",
+              "value": "15.6\"/1920x1080 пикс.",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 1,
+              "measure": null,
+              "iconPath": "/media/Assets/pdp-icon/1920x1080px.gif"
+            }
+          ]
+        },
+        {
+          "name": "Процессор",
+          "priority": 2,
+          "properties": [
+            {
+              "id": 30852930,
+              "name": "Процессор",
+              "value": "Intel Celeron N4020 1.1 ГГц",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 2,
+              "measure": null,
+              "iconPath": "/media/Assets/intel_icons_new/celeron.gif"
+            }
+          ]
+        },
+        {
+          "name": "Оперативная память",
+          "priority": 4,
+          "properties": [
+            {
+              "id": 30852805,
+              "name": "Оперативная память (RAM)",
+              "value": "4",
+              "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+              "valueDescription": null,
+              "priority": 4,
+              "measure": "ГБ",
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Видеокарта",
+          "priority": 5,
+          "properties": [
+            {
+              "id": 620,
+              "name": "Графический контроллер",
+              "value": "Intel UHD Graphics 600",
+              "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+              "valueDescription": null,
+              "priority": 5,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Операционная система",
+          "priority": 11,
+          "properties": [
+            {
+              "id": 30852971,
+              "name": "Операционная система",
+              "value": "Windows 11 Домашняя 64",
+              "nameDescription": "Комплекс программ для управления компьютером.  В современных устройствах используются операционные системы (ОС) Windows, Linux и macOS.​",
+              "valueDescription": null,
+              "priority": 11,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Электропитание",
+          "priority": 13,
+          "properties": [
+            {
+              "id": 266,
+              "name": "Работа от аккумулятора",
+              "value": "до 5 часов",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 13,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Вес",
+          "priority": 14,
+          "properties": [
+            {
+              "id": 91,
+              "name": "Вес",
+              "value": "1.57",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 14,
+              "measure": "кг",
+              "iconPath": null
+            }
+          ]
+        }
+      ],
+      "all": [
+        {
+          "name": "Серия модели",
+          "priority": 6,
+          "properties": [
+            {
+              "id": 46,
+              "name": "Серия",
+              "value": "Laptop",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 6,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Операционная система",
+          "priority": 8,
+          "properties": [
+            {
+              "id": 30852971,
+              "name": "Операционная система",
+              "value": "Windows 11 Домашняя 64",
+              "nameDescription": "Комплекс программ для управления компьютером.  В современных устройствах используются операционные системы (ОС) Windows, Linux и macOS.​",
+              "valueDescription": null,
+              "priority": 8,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 617790,
+              "name": "ОС Windows",
+              "value": "установлена",
+              "nameDescription": "Операционная система для управления компьютером или ноутбуком от компании Microsoft. Одна из самых распространённых ОС в мире, особенно среди рядовых пользователей. Характеризуется простым и понятным графическим интерфейсом.",
+              "valueDescription": null,
+              "priority": 10,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Процессор",
+          "priority": 11,
+          "properties": [
+            {
+              "id": 30852930,
+              "name": "Процессор",
+              "value": "Intel Celeron N4020 1.1 ГГц",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 11,
+              "measure": null,
+              "iconPath": "/media/Assets/intel_icons_new/celeron.gif"
+            },
+            {
+              "id": 30852972,
+              "name": "Количество ядер",
+              "value": "2",
+              "nameDescription": "Влияет на производительность процессора и возможность одновременной обработки нескольких потоков данных.",
+              "valueDescription": null,
+              "priority": 13,
+              "measure": null,
+              "iconPath": "/media/Assets/pdp-icon/pc/2core.gif"
+            },
+            {
+              "id": 30852880,
+              "name": "Кэш-память",
+              "value": "4",
+              "nameDescription": "Подвид памяти, в которой хранятся копии часто используемых данных. Чем ее больше, тем быстрее процессор получает доступ к основной памяти и тем выше быстродействие девайса в целом.",
+              "valueDescription": null,
+              "priority": 14,
+              "measure": "МБ",
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Видеокарта",
+          "priority": 16,
+          "properties": [
+            {
+              "id": 642,
+              "name": "Производитель видеопроцессора",
+              "value": "Intel",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 16,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 620,
+              "name": "Графический контроллер",
+              "value": "Intel UHD Graphics 600",
+              "nameDescription": "Модуль компьютера, отвечающий за обработку графической составляющей данных.",
+              "valueDescription": null,
+              "priority": 17,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Экран",
+          "priority": 20,
+          "properties": [
+            {
+              "id": 621,
+              "name": "Диагональ/разрешение",
+              "value": "15.6\"/1920x1080 пикс.",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 20,
+              "measure": null,
+              "iconPath": "/media/Assets/pdp-icon/1920x1080px.gif"
+            },
+            {
+              "id": 108,
+              "name": "Диагональ экрана",
+              "value": "15.6\"(39.6 см)",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 21,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 30852927,
+              "name": "Технология экрана",
+              "value": "TN",
+              "nameDescription": "Технология получения изображения, на которой построен экран девайса. На данный момент выделяют TFT-, OLED-, AMOLED- и IPS-дисплеи, которые различаются яркостью, качеством изображения и энергопотреблением.",
+              "valueDescription": null,
+              "priority": 24,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 2119,
+              "name": "Частота обновления",
+              "value": "60",
+              "nameDescription": "Частота смены кадров на экране. Влияет на качество изображения, особенно в динамичных сценах и играх.",
+              "valueDescription": null,
+              "priority": 25,
+              "measure": "Гц",
+              "iconPath": null
+            },
+            {
+              "id": 30852975,
+              "name": "Матовый экран",
+              "value": "Да",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 28,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Оперативная память",
+          "priority": 37,
+          "properties": [
+            {
+              "id": 30852805,
+              "name": "Оперативная память (RAM)",
+              "value": "4",
+              "nameDescription": "Часть системной памяти, от которой зависят скорость выполнения всех операций и быстродействие девайса в целом.",
+              "valueDescription": null,
+              "priority": 37,
+              "measure": "ГБ",
+              "iconPath": null
+            },
+            {
+              "id": 634,
+              "name": "Частота памяти",
+              "value": "2400",
+              "nameDescription": "Чем выше частота, тем быстрее будет передана информация на обработку и тем выше будет производительность устройства.",
+              "valueDescription": null,
+              "priority": 40,
+              "measure": "МГц",
+              "iconPath": null
+            },
+            {
+              "id": 2091,
+              "name": "Тип оперативной памяти",
+              "value": "DDR4",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 41,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Передача данных",
+          "priority": 52,
+          "properties": [
+            {
+              "id": 210,
+              "name": "Поддержка Wi-Fi",
+              "value": "a/b/g/n/ac",
+              "nameDescription": "Технология беспроводной локальной сети. Используется для выхода в интернет.\nВ настоящее время развивается целое семейство стандартов передачи цифровых потоков данных по радиоканалам.",
+              "valueDescription": null,
+              "priority": 52,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 619,
+              "name": "Версия Bluetooth",
+              "value": "4.1",
+              "nameDescription": "Версия интерфейса беспроводной передачи данных. Главное отличие более новых модификаций от старых заключается в скорости передачи информации.",
+              "valueDescription": null,
+              "priority": 53,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Звук",
+          "priority": 59,
+          "properties": [
+            {
+              "id": 5304,
+              "name": "Количество встроенных динамиков",
+              "value": "2",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 59,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 625,
+              "name": "Звуковая система",
+              "value": "SonicMaster",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 60,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Микрофон",
+          "priority": 63,
+          "properties": [
+            {
+              "id": 30852307,
+              "name": "Количество встроенных микрофонов",
+              "value": "1",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 63,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Интерфейсы",
+          "priority": 68,
+          "properties": [
+            {
+              "id": 626,
+              "name": "Выход HDMI",
+              "value": "1",
+              "nameDescription": "HDMI – это сокращение от High Definition Multimedia Interface (мультимедийный интерфейс высокого разрешения). Он передает несжатую цифровую информацию видеоизображения с защитой от копирования (HDCP), а также многоканальное аудио.",
+              "valueDescription": null,
+              "priority": 68,
+              "measure": "шт",
+              "iconPath": null
+            },
+            {
+              "id": 134,
+              "name": "Порт USB 2.0 тип A",
+              "value": "1",
+              "nameDescription": "Количество портов для подключения периферийных устройств и внешних носителей информации с интерфейсом USB 2.0.",
+              "valueDescription": null,
+              "priority": 72,
+              "measure": "шт",
+              "iconPath": null
+            },
+            {
+              "id": 30848753,
+              "name": "Порт USB 3.2 тип A",
+              "value": "1",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 82,
+              "measure": "шт",
+              "iconPath": null
+            },
+            {
+              "id": 30848754,
+              "name": "Порт USB 3.2 тип C",
+              "value": "1",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 83,
+              "measure": "шт",
+              "iconPath": null
+            },
+            {
+              "id": 629,
+              "name": "Разъем для наушников/микрофона 3.5мм",
+              "value": "1",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 89,
+              "measure": "шт",
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Корпус",
+          "priority": 98,
+          "properties": [
+            {
+              "id": 83,
+              "name": "Материал корпуса",
+              "value": "пластик",
+              "nameDescription": null,
+              "valueDescription": "Прочный, гигиеничный материал, рассчитанный на длительную эксплуатацию и не требующий сложного ухода.",
+              "priority": 98,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 30852877,
+              "name": "Веб-камера",
+              "value": "0.3",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 99,
+              "measure": "МПикс",
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Электропитание",
+          "priority": 115,
+          "properties": [
+            {
+              "id": 266,
+              "name": "Работа от аккумулятора",
+              "value": "до 5 часов",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 115,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Цвет",
+          "priority": 118,
+          "properties": [
+            {
+              "id": 89,
+              "name": "Цвет",
+              "value": "синий",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 118,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Габаритные размеры",
+          "priority": 119,
+          "properties": [
+            {
+              "id": 30852926,
+              "name": "Габаритные размеры (В*Ш*Г)",
+              "value": "18.1*360*236 мм",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 119,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 11934,
+              "name": "Высота",
+              "value": "18.1",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 121,
+              "measure": "мм",
+              "iconPath": null
+            },
+            {
+              "id": 11968,
+              "name": "Ширина",
+              "value": "360",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 122,
+              "measure": "мм",
+              "iconPath": null
+            },
+            {
+              "id": 113,
+              "name": "Глубина",
+              "value": "236",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 123,
+              "measure": "мм",
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Вес",
+          "priority": 124,
+          "properties": [
+            {
+              "id": 91,
+              "name": "Вес",
+              "value": "1.57",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 124,
+              "measure": "кг",
+              "iconPath": null
+            }
+          ]
+        },
+        {
+          "name": "Заводские данные",
+          "priority": 125,
+          "properties": [
+            {
+              "id": 5552,
+              "name": "Гарантия",
+              "value": "1 год",
+              "nameDescription": null,
+              "valueDescription": null,
+              "priority": 125,
+              "measure": null,
+              "iconPath": null
+            },
+            {
+              "id": 5554,
+              "name": "Страна",
+              "value": "Тайвань",
+              "nameDescription": "Допускается отличие страны-изготовителя, указанной в характеристиках.\nЛинии производства могут находиться в нескольких государствах. \nЭто не влияет на качество изготовления техники: все заводы данного бренда работают по общим стандартам, а готовые изделия проходят соответствующий контроль.",
+              "valueDescription": null,
+              "priority": 129,
+              "measure": null,
+              "iconPath": null
+            }
+          ]
+        }
+      ]
+    },
+    "image": "Pdb/30061244b.jpg",
+    "images3d": [
+      "3dPics/30061244/001.jpg",
+      "3dPics/30061244/002.jpg",
+      "3dPics/30061244/003.jpg",
+      "3dPics/30061244/004.jpg",
+      "3dPics/30061244/005.jpg",
+      "3dPics/30061244/006.jpg",
+      "3dPics/30061244/007.jpg",
+      "3dPics/30061244/008.jpg",
+      "3dPics/30061244/009.jpg",
+      "3dPics/30061244/010.jpg",
+      "3dPics/30061244/011.jpg",
+      "3dPics/30061244/012.jpg",
+      "3dPics/30061244/013.jpg",
+      "3dPics/30061244/014.jpg",
+      "3dPics/30061244/015.jpg",
+      "3dPics/30061244/016.jpg",
+      "3dPics/30061244/017.jpg",
+      "3dPics/30061244/018.jpg",
+      "3dPics/30061244/019.jpg",
+      "3dPics/30061244/020.jpg",
+      "3dPics/30061244/021.jpg",
+      "3dPics/30061244/022.jpg",
+      "3dPics/30061244/023.jpg",
+      "3dPics/30061244/024.jpg",
+      "3dPics/30061244/025.jpg",
+      "3dPics/30061244/026.jpg",
+      "3dPics/30061244/027.jpg",
+      "3dPics/30061244/028.jpg",
+      "3dPics/30061244/029.jpg",
+      "3dPics/30061244/030.jpg",
+      "3dPics/30061244/031.jpg",
+      "3dPics/30061244/032.jpg",
+      "3dPics/30061244/033.jpg",
+      "3dPics/30061244/034.jpg",
+      "3dPics/30061244/035.jpg",
+      "3dPics/30061244/036.jpg",
+      "3dPics/30061244/s_001.jpg",
+      "3dPics/30061244/s_002.jpg",
+      "3dPics/30061244/s_003.jpg",
+      "3dPics/30061244/s_004.jpg",
+      "3dPics/30061244/s_005.jpg",
+      "3dPics/30061244/s_006.jpg",
+      "3dPics/30061244/s_007.jpg",
+      "3dPics/30061244/s_008.jpg",
+      "3dPics/30061244/s_009.jpg",
+      "3dPics/30061244/s_010.jpg",
+      "3dPics/30061244/s_011.jpg",
+      "3dPics/30061244/s_012.jpg",
+      "3dPics/30061244/s_013.jpg",
+      "3dPics/30061244/s_014.jpg",
+      "3dPics/30061244/s_015.jpg",
+      "3dPics/30061244/s_016.jpg",
+      "3dPics/30061244/s_017.jpg",
+      "3dPics/30061244/s_018.jpg",
+      "3dPics/30061244/s_019.jpg",
+      "3dPics/30061244/s_020.jpg",
+      "3dPics/30061244/s_021.jpg",
+      "3dPics/30061244/s_022.jpg",
+      "3dPics/30061244/s_023.jpg",
+      "3dPics/30061244/s_024.jpg",
+      "3dPics/30061244/s_025.jpg",
+      "3dPics/30061244/s_026.jpg",
+      "3dPics/30061244/s_027.jpg",
+      "3dPics/30061244/s_028.jpg",
+      "3dPics/30061244/s_029.jpg",
+      "3dPics/30061244/s_030.jpg",
+      "3dPics/30061244/s_031.jpg",
+      "3dPics/30061244/s_032.jpg",
+      "3dPics/30061244/s_033.jpg",
+      "3dPics/30061244/s_034.jpg",
+      "3dPics/30061244/s_035.jpg",
+      "3dPics/30061244/s_036.jpg"
+    ],
+    "imagesBig": [
+      "Big/30061244bb.jpg",
+      "Big/30061244bb1.jpg",
+      "Big/30061244bb2.jpg",
+      "Big/30061244bb3.jpg"
+    ],
+    "brandNameTranslit": "asus",
+    "brandId": "455",
+    "brandUrl": null,
+    "brandLogoUrl": "jcr:be1f82b4-80f5-4d69-9fa8-68efba6e6440",
+    "isBrandVisible": true,
+    "groups": [
+      {
+        "name": "Ноутбуки, планшеты, компьютеры",
+        "groupId": "16395",
+        "seoId": "8",
+        "translitName": "noutbuki-planshety-komputery",
+        "level": 0
+      },
+      {
+        "name": "Ноутбуки",
+        "groupId": "16396",
+        "seoId": "118",
+        "translitName": "noutbuki",
+        "level": 1
+      },
+      {
+        "name": "Ноутбуки",
+        "groupId": "16401",
+        "seoId": "987",
+        "translitName": "noutbuki",
+        "level": 2
+      }
+    ],
+    "certificates": [
+      "sertificates/Certificates/30061244.pdf"
+    ],
+    "instructions": [
+      "ins/30061244.pdf"
+    ],
+    "videos": [],
+    "status": {
+      "showCase": false,
+      "availableOnlyInRetailStore": false,
+      "soldOut": false,
+      "isCannotBeExchanged": false
+    },
+    "supplier": null,
+    "rating": {
+      "star": 5,
+      "count": 4,
+      "percent": 101
+    },
+    "sublicense": false,
+    "customNotifications": [],
+    "variants": [],
+    "isWatchOnlineBtnVisible": false,
+    "watchOnlineBtnId": null,
+    "isMprimeSubscription": false,
+    "blocksOrder": {
+      "mobile": {
+        "aboutProduct": 1,
+        "usefulToYou": 2,
+        "promoCover": 3,
+        "specifications": 4,
+        "services": 14,
+        "reviews": 6,
+        "advantagesKit": 7,
+        "accessories": 8,
+        "fastDelivery": 8,
+        "togetherGoods": 8,
+        "availabilityPickup": 9,
+        "productCompare": 10,
+        "ourAdvantages": 11,
+        "mMag": 12,
+        "youWatched": 13,
+        "otherOffers": 15
+      },
+      "desktop": {
+        "aboutProduct": 1,
+        "usefulToYou": 1,
+        "promoCover": 2,
+        "specifications": 3,
+        "services": 13,
+        "reviews": 5,
+        "advantagesKit": 6,
+        "accessories": 7,
+        "fastDelivery": 7,
+        "togetherGoods": 7,
+        "availabilityPickup": 8,
+        "productCompare": 9,
+        "ourAdvantages": 10,
+        "mMag": 11,
+        "youWatched": 12,
+        "otherOffers": 14
+      },
+      "tablet": {
+        "aboutProduct": 1,
+        "usefulToYou": 2,
+        "promoCover": 3,
+        "specifications": 4,
+        "services": 14,
+        "reviews": 6,
+        "advantagesKit": 7,
+        "accessories": 8,
+        "fastDelivery": 8,
+        "togetherGoods": 8,
+        "availabilityPickup": 9,
+        "productCompare": 10,
+        "ourAdvantages": 11,
+        "mMag": 12,
+        "youWatched": 13,
+        "otherOffers": 15
+      }
+    }
+  }
+}

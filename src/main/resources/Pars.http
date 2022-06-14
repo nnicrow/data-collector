@@ -1,0 +1,76 @@
+### Парсинг Каталога
+GET https://www.mvideo.ru/bff/settings/catalog
+Accept: application/json
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Referer: https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=no-search-results
+Cookie: MVID_CITY_ID=CityCZ_2446; MVID_REGION_ID=2; MVID_REGION_SHOP=S903; bIPs=1596547062; JSESSIONID=Mvt7vb6hFQQ9qR6fmTNjNphKvZ52lK6zXvpD9RDQHT732nF8xVLm!-1638179175; MVID_TIMEZONE_OFFSET=3;
+
+### Тут можно получить id продуктов в данной категории
+GET https://www.mvideo.ru/bff/products/listing?categoryId=118&offset=1&limit=24
+Accept: application/json
+Content-Type: application/json
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Referer: https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=no-search-results
+Cookie: MVID_CITY_ID=CityCZ_2446; MVID_REGION_ID=2; MVID_REGION_SHOP=S903; bIPs=1596547062; JSESSIONID=Mvt7vb6hFQQ9qR6fmTNjNphKvZ52lK6zXvpD9RDQHT732nF8xVLm!-1638179175; MVID_TIMEZONE_OFFSET=3;
+
+### Информация по списку продуктов
+POST https://www.mvideo.ru/bff/product-details/list
+Accept: application/json
+Content-Type: application/json
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Referer: https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=no-search-results
+Cookie: MVID_CITY_ID=CityCZ_2446; MVID_REGION_ID=2; MVID_REGION_SHOP=S903; bIPs=1596547062; JSESSIONID=Mvt7vb6hFQQ9qR6fmTNjNphKvZ52lK6zXvpD9RDQHT732nF8xVLm!-1638179175; MVID_TIMEZONE_OFFSET=3;
+
+{"productIds":["30061244","30056687","30062057","30058396","30059533","30056686","30056685","30054298","30061107","30061890","30054317","30061729","30058198","30056659","30061549","30053777","30061547","30058344","30057322","30059596","30059802","30058326","30062431","30057321"],"mediaTypes":["images"],"category":true,"status":true,"brand":true,"propertyTypes":["KEY"],"propertiesConfig":{"propertiesPortionSize":5},"multioffer":false}
+
+### Информация по каждому продукту
+GET https://www.mvideo.ru/bff/product-details?productId=30061244
+Accept: application/json
+Content-Type: application/json
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Referer: https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=no-search-results
+Cookie: MVID_CITY_ID=CityCZ_2446; MVID_REGION_ID=2; MVID_REGION_SHOP=S903; bIPs=1596547062; JSESSIONID=Mvt7vb6hFQQ9qR6fmTNjNphKvZ52lK6zXvpD9RDQHT732nF8xVLm!-1638179175; MVID_TIMEZONE_OFFSET=3;
+
+### Доступность продукта
+GET https://www.mvideo.ru/bff/best-price-guarantee/availability?productId=30061244
+Accept: application/json
+Content-Type: application/json
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Referer: https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=no-search-results
+Cookie: MVID_CITY_ID=CityCZ_2446; MVID_REGION_ID=2; MVID_REGION_SHOP=S903; bIPs=1596547062; JSESSIONID=Mvt7vb6hFQQ9qR6fmTNjNphKvZ52lK6zXvpD9RDQHT732nF8xVLm!-1638179175; MVID_TIMEZONE_OFFSET=3;
+
+###
+GET https://www.mvideo.ru/bff/products/prices?productIds=30061244&isPromoApplied=true&addBonusRubles=true
+Accept: application/json
+Content-Type: application/json
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Referer: https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=no-search-results
+Cookie: MVID_CITY_ID=CityCZ_2446; MVID_REGION_ID=2; MVID_REGION_SHOP=S903; bIPs=1596547062; JSESSIONID=Mvt7vb6hFQQ9qR6fmTNjNphKvZ52lK6zXvpD9RDQHT732nF8xVLm!-1638179175; MVID_TIMEZONE_OFFSET=3;
+### https://www.mvideo.ru/bff/product-details/status?productId=30061244
+### https://www.mvideo.ru/bff/products/prices?productIds=30061244&isPromoApplied=true&addBonusRubles=true
+### Можно парсить и отзывы
+
+# val get_product_info_url: String = "https://www.mvideo.ru/bff/products/listing?categoryId=10"
+# val url: String = "https://www.mvideo.ru/bff/products/listing?categoryId=118&offset=0&limit=24&doTranslit=true"
+# val price_url: String = "https://www.mvideo.ru/bff/products/prices?productIds=30061244,30056687&addBonusRubles=true&isPromoApplied=true"
+# val status_url: String = "https://www.mvideo.ru/bff/products/statuses?productIds=30061244,30056687"
+# val productListUrl: URL = URL("https://www.mvideo.ru/bff/product-details/list")
+# OLD Cookie:  __lhash_=d46d5011fe1febedb24c20226213109b; COMPARISON_INDICATOR=false; HINTS_FIO_COOKIE_NAME=1; MAIN_PAGE_VARIATION=6; MVID_ABC_TEST_WIDGET=0; MVID_AB_PROMO_DAILY=1; MVID_AB_SERVICES_DESCRIPTION=var1; MVID_AB_TEST_COMPARE_ONBOARDING=true; MVID_ADDRESS_COMMENT_AB_TEST=2; MVID_BLACK_FRIDAY_ENABLED=true; MVID_CALC_BONUS_RUBLES_PROFIT=true; MVID_CART_MULTI_DELETE=true; MVID_CATALOG_STATE=1; MVID_CITY_ID=CityCZ_2446; MVID_FILTER_CODES=true; MVID_FILTER_TOOLTIP=1; MVID_FLOCKTORY_ON=true; MVID_GEOLOCATION_NEEDED=true; MVID_GET_LOCATION_BY_DADATA=DaData; MVID_GIFT_KIT=true; MVID_GUEST_ID=20462524409; MVID_IS_NEW_BR_WIDGET=true; MVID_KLADR_ID=6100000100000; MVID_LAYOUT_TYPE=1; MVID_NEW_ACCESSORY=true; MVID_NEW_LK=true; MVID_NEW_LK_LOGIN=true; MVID_NEW_LK_MENU_BUTTON=true; MVID_NEW_LK_OTP_TIMER=true; MVID_NEW_MBONUS_BLOCK=true; MVID_NEW_SUGGESTIONS=false; MVID_PRICE_FIRST=2; MVID_PRM20_CMS=true; MVID_PROMO_CATALOG_ON=true; MVID_REGION_ID=2; MVID_REGION_SHOP=S903; MVID_SERVICES=111; MVID_SERVICES_MINI_BLOCK=var0; MVID_TAXI_DELIVERY_INTERVALS_VIEW=new; MVID_TIMEZONE_OFFSET=3; MVID_WEBP_ENABLED=true; NEED_REQUIRE_APPLY_DISCOUNT=true; PRESELECT_COURIER_DELIVERY_FOR_KBT=false; PROMOLISTING_WITHOUT_STOCK_AB_TEST=2; flacktory=no; searchType2=1; popmechanic_sbjs_migrations=popmechanic_1418474375998=1|||1471519752600=1|||1471519752605=1; __SourceTracker=google__organic; admitad_deduplication_cookie=google__organic; SMSError=; authError=; tmr_lvidTS=1649936378906; tmr_lvid=48eebc88a7fa04fe867eaa037f782857; _gaexp=GAX1.2.lUqGFa1SQgqnaDRX08-cuw.19154.3; advcake_track_id=45532e3c-fa96-27d5-f0ee-d52c773ea584; advcake_session_id=e9ea6195-982e-e8b3-eeee-7539c40db3aa; afUserId=307e1c94-505a-45ae-8b74-3836c373cd50-p; AF_SYNC=1649936380918; st_uid=e7578419bbb4e60dd8a7d415bcf4e639; _ym_uid=164993640020776007; _ym_d=1649936400; uxs_uid=9dc70c70-bbe7-11ec-b118-21d5336337ff; __ttl__widget__ui=1649936402832-06f1a4d720a6; flocktory-uuid=dedfc4be-0359-45a8-a28b-29505101d42c-4; BIGipServeratg-ps-prod_tcp80=2919554058.20480.0000; bIPs=1595647062; BIGipServeratg-ps-prod_tcp80_clone=2919554058.20480.0000; _gid=GA1.2.263521543.1650100781; MVID_ENVCLOUD=primary; _ym_isad=1; JSESSIONID=Mvt7vb6hFqq9qR6fmTNjNphKvZ52lK6zXvpD9RDQHT732nF8xVLm!-1668177175; SameSite=None; wurfl_device_id=generic_web_browser; MVID_GTM_BROWSER_THEME=1; deviceType=tablet; cfidsgib-w-mvideo=KvLnlMpumVvDHgcbK0SaXcTZDWapL8gzLDXHSrKJtj23dp0Kl8jdiVwCgOe5M3smjiBNQm/dedRczfZFxUfRV1SfNzx6VdE7/7wd/LtKG/5a3ziRqycAmJSfWQdGwawqT1rMU7TNQHOCanNkAyrjXbBkt7ysrHPGZZt8; cfidsgib-w-mvideo=KvLnlMpumVvDHgcbK0SaXcTZDWapL8gzLDXHSrKJtj23dp0Kl8jdiVwCgOe5M3smjiBNQm/dedRczfZFxUfRV1SfNzx6VdE7/7wd/LtKG/5a3ziRqycAmJSfWQdGwawqT1rMU7TNQHOCanNkAyrjXbBkt7ysrHPGZZt8; gsscgib-w-mvideo=cQ1YFjaPJVa41Xqj0lgvMwX0QwNEPrGdF9wPFgtXKzaD25UVyaxousaC+QTbkIHr4kcIDVY0JrdKfHelicfUmiBrqJElJRT4/qzxkXfxWat8XIPkhbQSjTWStxfGYj0/+taV2dlttUqkdexRuKfkPdkhg8ie8LHqxchMT7S1YzPIr8RjzwcyWotzXxWYnLtTrwDWRp5Lwl5ftc5R3mBlNrE23DchpZVXYn/AXvjWA/3XwcdIaQFe/fmiXJcFyw==; gsscgib-w-mvideo=cQ1YFjaPJVa41Xqj0lgvMwX0QwNEPrGdF9wPFgtXKzaD25UVyaxousaC+QTbkIHr4kcIDVY0JrdKfHelicfUmiBrqJElJRT4/qzxkXfxWat8XIPkhbQSjTWStxfGYj0/+taV2dlttUqkdexRuKfkPdkhg8ie8LHqxchMT7S1YzPIr8RjzwcyWotzXxWYnLtTrwDWRp5Lwl5ftc5R3mBlNrE23DchpZVXYn/AXvjWA/3XwcdIaQFe/fmiXJcFyw==; cfidsgib-w-mvideo=lDBX6kSYLM22v/NP92EE8A//VwDvj8QvOlUIyyt1la2FQIPe1Cg8kYqxqHQTXuxkDCqq4dFoRkVURhAEOq5ZsICHaF43Qf+LEltNrTSLI7vZPD+AQO9Wc2NkumhlPz1ILrGC7g/DqP2nxwIzq3+2cqnVpCxugVs0VRG2; __zzatgib-w-mvideo=MDA0dC0cTApcfEJcdGswPi17CT4VHThHKHIzd2VGCTEkLXlfV1keFgpmOxc1MEdtQSkjdVw7JS49KThlGQllC2lWIzk6KSNyJlFFIWMNZxE4GjhmI2VPWiZKVlR+FhoXfGskVg8SX0NJbnobN1ddHBEkWA4hPwtpW1Y0ZxUbQEgYL0tueS47ZiRnTmAgS1tRdRdgSkMrNhZGRhxyM3c/awgiGVETKl94R1drZVVCODFnDE9PTRIW+wdIig==; __zzatgib-w-mvideo=MDA0dC0cTApcfEJcdGswPi17CT4VHThHKHIzd2VGCTEkLXlfV1keFgpmOxc1MEdtQSkjdVw7JS49KThlGQllC2lWIzk6KSNyJlFFIWMNZxE4GjhmI2VPWiZKVlR+FhoXfGskVg8SX0NJbnobN1ddHBEkWA4hPwtpW1Y0ZxUbQEgYL0tueS47ZiRnTmAgS1tRdRdgSkMrNhZGRhxyM3c/awgiGVETKl94R1drZVVCODFnDE9PTRIW+wdIig==; fgsscgib-w-mvideo=P5qGa701ab44ad66d19cfb870504e9a8c1cb61d7; fgsscgib-w-mvideo=P5qGa701ab44ad66d19cfb870504e9a8c1cb61d7; mindboxDeviceUUID=5e0fc34a-018f-44fa-9607-d84240d9b022; directCrm-session={"deviceGuid":"5e0fc34a-018f-44fa-9607-d84240d9b022"}; _ga=GA1.2.888793239.1649936379; tmr_detect=1|1650178775813; _dc_gtm_UA-1873769-1=1; _dc_gtm_UA-1873769-37=1; ADRUM_BTa=R:66|g:a564fb86-5564-4b8e-b87a-6cdd9af169bc|n:customer1_ae7323db-e756-48ff-9e85-91c314c4b57e; ADRUM_BT1=R:66|i:3885|e:0; ADRUM=s=1650178821944&r=https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?-1835959319; tmr_reqNum=113; CACHE_INDICATOR=false; _ga_CFMZTSS5FM=GS1.1.1650177618.4.1.1650178822.0; _ga_BNX5WPP3YK=GS1.1.1650177618.4.1.1650178822.57; ADRUM_BT=R:88|g:0d9c6a54-49d2-4cc5-a8c5-97709dbcb49a176121
+
+#      val url = URL("https://postman-echo.com/post")
+#    val postData = "foo1=bar1&foo2=bar2"
+#
+#    val conn = url.openConnection() as HttpURLConnection
+#    conn.requestMethod = "POST"
+#    conn.doOutput = true
+#    conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded")
+#    conn.setRequestProperty("Content-Length", postData.length.toString())
+#    conn.useCaches = false
+#
+#    DataOutputStream(conn.outputStream).use { it.writeBytes(postData) }
+#    BufferedReader(InputStreamReader(conn.inputStream)).use { br ->
+#        var line: String?
+#        while (br.readLine().also { line = it } != null) {
+#            println(line)
+#        }
+#    }
